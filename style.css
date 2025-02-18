@@ -1,16 +1,14 @@
 
-
-
 .containertext{
     display: flex;
     /* flex-direction: column; */
     width: 25%;
     align-items: flex-start;
-    background-color: slategray;
-  padding: 20px;
-  border-radius: 8px;
-  width: 70%;
-  text-align: center;
+    background-color: maroon;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
 }
 .cats9{
     display: flex;
@@ -53,7 +51,7 @@
   body {
     background-image: url('Designfarm4.png'); 
     background-repeat: no-repeat; 
-    background-position: center center fixed;
+    background-position: relative;
     background-size: cover;
   }
   /* body ~ * {
@@ -127,15 +125,18 @@ button {
   h1{
     text-align: center;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 25%;
-    align-items: flex-start;
-    background-color: brown
-    padding: 20px;
-    border-radius: 8px;
+    align-items: center;
+    padding: auto;
+    background-color: rgb(154, 109, 109)
+    /* padding: 20px; */
+    border: 8px;
     width: 50%;
     text-align: center;
     margin: 120px;
+    z-index: 10;
+    position: relative;
 }
 
 .containerleft {
@@ -146,4 +147,13 @@ button {
 .containerright {
     background-color: white;
     margin: 25px;
+}
+
+.title {
+    z-index: 5;
+    background-color: whitesmoke;
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
 }
