@@ -177,3 +177,11 @@ button {
     align-items: center;
 
 }
+
+@media screen and (max-width: 800px){
+    .containertext {
+        flex-direction: column;
+       
+    }
+    
+}
