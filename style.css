@@ -142,25 +142,10 @@ button {
     background-color: #218838;
   }
 
-  h1{
-    text-align: center;
-    display: flex;
-    /* flex-direction: column; */
-    width: 25%;
-    align-items: center;
-    padding: auto;
-    background-color: whitesmoke;
-    /* padding: 20px; */
-    border: 8px;
-    width: 50%;
-    text-align: center;
-    margin: 120px;
-    /* z-index: 10; */
-    position: relative;
-}
+
 
 .containerleft {
-    background-color: white;
+    background-color: white !important;
     margin: 25px;
 }
 
@@ -169,11 +154,26 @@ button {
     margin: 25px;
 }
 
-.title {
-    /* z-index: 5; */
-    /* background-color: whitesmoke; */
+
+
+.title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    padding: 1px;
+    background-color: whitesmoke;
+    /* padding: 20px; */
+    border: 8px;
+    width: 50%;
+    text-align: center;
+    margin: 120px;
+    /* z-index: 10; */
+    position: relative;
     position: relative;
     width: 60%;
     justify-content: center;
     align-items: center;
+
 }
