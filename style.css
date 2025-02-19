@@ -1,4 +1,20 @@
+/* * {
+    background-image: url(cat_Desig5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
 
+/* Apply background image to all elements except those with the 'no-background' class */
+
+
+/* Ensure elements with 'no-background' class have no background image */
+/* .no-background {
+    background-image: none;
+} */
+/* body (
+    margin: 0;
+) */
 .containertext{
     display: flex;
     /* flex-direction: column; */
@@ -22,8 +38,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #5a1212;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,18 +57,22 @@
   .nav-link {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0;
+    /* margin: 0 15px; */
     font-size: 18px;
   }
   .nav-link:hover {
     text-decoration: underline;
     color: red;
   }
-  body {
-    background-image: url('Designfarm4.png'); 
-    background-repeat: no-repeat; 
-    background-position: relative;
-    background-size: cover;
+  .background-img{
+    background-image: url('./cat_Designpage1.png'); 
+    background-color: maroon;
+    /* background-repeat: no-repeat;  */
+    /* background-position: fixed; */
+    background-size: cover ;
+    height: auto;
+    width: auto;
   }
   /* body ~ * {
     background: url('bkg1.png') no-repeat center center fixed;
@@ -129,13 +149,13 @@ button {
     width: 25%;
     align-items: center;
     padding: auto;
-    background-color: rgb(154, 109, 109)
+    background-color: whitesmoke;
     /* padding: 20px; */
     border: 8px;
     width: 50%;
     text-align: center;
     margin: 120px;
-    z-index: 10;
+    /* z-index: 10; */
     position: relative;
 }
 
@@ -150,8 +170,8 @@ button {
 }
 
 .title {
-    z-index: 5;
-    background-color: whitesmoke;
+    /* z-index: 5; */
+    /* background-color: whitesmoke; */
     position: relative;
     width: 60%;
     justify-content: center;
