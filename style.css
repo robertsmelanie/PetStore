@@ -179,6 +179,48 @@ button {
     margin-right: auto;
 
 }
+/* Styling the entire section */
+.offer-section {
+    max-width: 600px; /* Keeps content neatly contained */
+    margin: 0 auto; /* Centers the section */
+    text-align: center; /* Centers all text */
+    background-color: #f8f8f8; /* Light background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Styling each offer item */
+.offer-item {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styled list */
+.styled-list {
+    list-style-position: inside; /* Moves bullets closer */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns text and bullets */
+    padding-left: 0; /* Removes default padding */
+    font-weight: bold;
+}
+
+/* Styling the links */
+.offer-item a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077cc; /* Blue link color */
+    font-weight: bold;
+}
+
+.offer-item a:hover {
+    color: #0055aa; /* Darker blue on hover */
+}
 
 @media screen and (max-width: 800px){
     .containertext {
