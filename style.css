@@ -25,6 +25,7 @@
     border-radius: 8px;
     width: 70%;
     text-align: center;
+    
 }
 .cats9{
     display: flex;
@@ -71,8 +72,9 @@
     /* background-repeat: no-repeat;  */
     /* background-position: fixed; */
     background-size: cover ;
-    height: auto;
-    width: auto;
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
   }
   /* body ~ * {
     background: url('bkg1.png') no-repeat center center fixed;
@@ -99,6 +101,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
 button {
@@ -172,7 +175,7 @@ button {
     border: 8px;
     width: 50%;
     text-align: center;
-    margin: 120px;
+    margin: 80px;
     /* z-index: 10; */
     position: relative;
     position: relative;
