@@ -1,20 +1,4 @@
-/* * {
-    background-image: url(cat_Desig5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
-/* Apply background image to all elements except those with the 'no-background' class */
-
-
-/* Ensure elements with 'no-background' class have no background image */
-/* .no-background {
-    background-image: none;
-} */
-/* body (
-    margin: 0;
-) */
 .containertext{
     display: flex;
     /* flex-direction: column; */
@@ -76,14 +60,12 @@
     width: 100%;
     background-repeat: no-repeat;
   }
-  /* body ~ * {
-    background: url('bkg1.png') no-repeat center center fixed;
-    background-size: cover;
-  } */
+ 
 
-  .footer {
+  .footer-custom {
     align-items: center;
     text-align: center;
+    color: white;
 
   }
 
