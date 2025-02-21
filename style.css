@@ -38,6 +38,7 @@
     border-radius: 8px;
     width: 50%;
     text-align: center;
+    z-index: 1000;
   }
   .nav-link {
     color: white;
@@ -59,13 +60,24 @@
     height: 900px;
     width: 100%;
     background-repeat: no-repeat;
+    /* z-index: 5; */
   }
  
 
   .footer-custom {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
     align-items: center;
     text-align: center;
     color: white;
+    background-color: brown;
+    
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    text-align: center;
+    z-index: 500;
 
   }
 
@@ -142,7 +154,10 @@ button {
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.left-align {
+    display: block;
+    text-align: left;
+}
 
 
 .title{
@@ -158,7 +173,7 @@ button {
     width: 50%;
     text-align: center;
     margin: 80px;
-    /* z-index: 10; */
+    z-index: 1;
     position: relative;
     position: relative;
     width: 60%;
