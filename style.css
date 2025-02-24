@@ -62,8 +62,13 @@
     background-repeat: no-repeat;
     /* z-index: 5; */
   }
- 
+    .product {
+      /* width: 20px;
+      height: 30px; */
+      width: 50%;
+    }
 
+    
   .footer-custom {
     /* position: absolute;
     bottom: 0;
