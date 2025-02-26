@@ -1,22 +1,59 @@
 var shop = [
     {
-      title: 'Tigers',
-      image: './img/catimage1a.jpg',
+      title: 'Adult Cat Food',
+      image: './img/fooda.jpeg',
       price: '$7,500-15,000',
-      description: 'Holding place for tigers'
+      description: 'Holding place Adult Cat Food'
     },
     {
-        title: 'Food',
+        title: 'Kitten Food',
         image: './img/catfood.jpeg',
+        price: '$7,500-15,000',
+        description: 'Holding place for Kitten Food'
+      },
+      {
+        title: 'Shelter',
+        image: './img/shelter2.jpeg',
         price: '$7,500-15,000',
         description: 'Holding place for Food'
       },
       {
-        title: 'Shelter',
-        image: './img/catshelter.jpg',
+        title: 'Collar',
+        image: './img/catimage1a.jpg',
         price: '$7,500-15,000',
-        description: 'Holding place for Food'
+        description: 'Holding place for collars'
       },
+      {
+          title: 'Flea and Tick',
+          image: './img/catfood.jpeg',
+          price: '$7,500-15,000',
+          description: 'Holding place for Flea and Tick Treatment'
+        },
+        {
+          title: 'Other Health',
+          image: './img/catshelter.jpg',
+          price: '$7,500-15,000',
+          description: 'Holding place for Other Health Treatments'
+        },
+        {
+          title: 'Water Bowl',
+          image: './img/catimage1a.jpg',
+          price: '$7,500-15,000',
+          description: 'Holding place for Water Bowl'
+        },
+        {
+            title: 'Heatable Water Bowl',
+            image: './img/bowl1.jpeg',
+            price: '$7,500-15,000',
+            description: 'Holding place for Heatable Water Bowl'
+          },
+          {
+            title: 'Cat Catcher',
+            image: './img/catch.jpeg',
+            price: '$7,500-15,000',
+            description: 'Holding place for Cat Catching Device'
+          },
+         
     
     ]
     
