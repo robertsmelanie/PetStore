@@ -7,7 +7,7 @@ var shop = [
     },
     {
         title: 'Kitten Food',
-        image: './img/catfood.jpeg',
+        image: './img/FoodKitten.jpeg',
         price: '$7,500-15,000',
         description: 'Holding place for Kitten Food'
       },
@@ -19,28 +19,28 @@ var shop = [
       },
       {
         title: 'Collar',
-        image: './img/catimage1a.jpg',
+        image: './img/catCollarAT.png',
         price: '$7,500-15,000',
         description: 'Holding place for collars'
       },
       {
           title: 'Flea and Tick',
-          image: './img/catfood.jpeg',
+          image: './img/FleaTick.png',
           price: '$7,500-15,000',
           description: 'Holding place for Flea and Tick Treatment'
         },
         {
           title: 'Other Health',
           image: './img/catshelter.jpg',
-          price: '$7,500-15,000',
-          description: 'Holding place for Other Health Treatments'
+          price: '$30',
+          description: 'Plans for buildable Cat Shelter (not the shelter just the plans)'
         },
-        {
-          title: 'Water Bowl',
-          image: './img/catimage1a.jpg',
-          price: '$7,500-15,000',
-          description: 'Holding place for Water Bowl'
-        },
+        // {
+        //   title: 'Water Bowl',
+        //   image: './img/catimage1a.jpg',
+        //   price: '$7,500-15,000',
+        //   description: 'Holding place for Water Bowl'
+        // },
         {
             title: 'Heatable Water Bowl',
             image: './img/bowl1.jpeg',
@@ -80,7 +80,7 @@ var shop = [
   
     for (var i=0; i < shop.length; i++){
         var heading = '<div class="product ' + '"><span><h5>' + shop[i].title + '</h5>'
-        var image = '<img src="' + shop[i].image + '"/>'
+        var image = '<img class="img-fluid" src="' + shop[i].image + '"/>'
         var price = '<p> $' + shop[i].price + '</p></span>'
         var description = '<div class=""><p>'+ shop[i].description + '</p><button type="button" class="btn btn-warning"> add to cart</button></div></div>'
         var concatThis = heading + image + price + description;

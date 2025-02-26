@@ -65,7 +65,9 @@
     .product {
       /* width: 20px;
       height: 30px; */
-      width: 50%;
+      /* width: 50%; */
+      display: flex;
+      flex-direction: column;
     }
 
     
@@ -243,3 +245,8 @@ button {
     }
     
 }
+/* #market{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
