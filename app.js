@@ -2,32 +2,32 @@ var shop = [
     {
       title: 'Adult Cat Food',
       image: './img/fooda.jpeg',
-      price: '$7,500-15,000',
-      description: 'Holding place Adult Cat Food'
+      price: '$50-100',
+      description: 'Adult Cat Food'
     },
     {
         title: 'Kitten Food',
         image: './img/FoodKitten.jpeg',
-        price: '$7,500-15,000',
-        description: 'Holding place for Kitten Food'
+        price: '$50-100',
+        description: 'Kitten Food'
       },
       {
         title: 'Shelter',
         image: './img/shelter2.jpeg',
-        price: '$7,500-15,000',
-        description: 'Holding place for Food'
+        price: '$100-500',
+        description: 'Outside shelter'
       },
       {
         title: 'Collar',
         image: './img/catCollarAT.png',
-        price: '$7,500-15,000',
+        price: '$5-15',
         description: 'Holding place for collars'
       },
       {
           title: 'Flea and Tick',
           image: './img/FleaTick.png',
-          price: '$7,500-15,000',
-          description: 'Holding place for Flea and Tick Treatment'
+          price: '$50-100',
+          description: 'Flea and Tick Treatment'
         },
         {
           title: 'Other Health',
@@ -44,14 +44,14 @@ var shop = [
         {
             title: 'Heatable Water Bowl',
             image: './img/bowl1.jpeg',
-            price: '$7,500-15,000',
-            description: 'Holding place for Heatable Water Bowl'
+            price: '$20-50',
+            description: 'Heatable Water Bowl made to prevent ice in freezing temperatures'
           },
           {
             title: 'Cat Catcher',
             image: './img/catch.jpeg',
-            price: '$7,500-15,000',
-            description: 'Holding place for Cat Catching Device'
+            price: '$50-150',
+            description: 'Cat Catching Device made to catch ferel cats'
           },
          
     
