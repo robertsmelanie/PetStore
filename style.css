@@ -153,8 +153,10 @@ button {
     margin: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .containerright {
@@ -162,6 +164,8 @@ button {
     margin: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    flex-grow: 2;
+    
 }
 .left-align {
     display: block;
@@ -246,6 +250,9 @@ button {
         width: 100%;
     }
     
+}
+.age {
+  font-size: xx-large;
 }
 /* #market{
   display: flex;
