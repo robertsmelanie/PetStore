@@ -254,6 +254,11 @@ button {
 .age {
   font-size: xx-large;
 }
+
+select {
+  font-size: 18px; /* Change font size */
+  padding: 5px; /* Adjust padding for better spacing */
+}
 /* #market{
   display: flex;
   flex-direction: column;
