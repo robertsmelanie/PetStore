@@ -51,7 +51,7 @@
   }
   .nav-link:hover {
     text-decoration: underline;
-    color: red;
+    color: turquoise;
   }
   .background-img{
     background-image: url('./cat_Designpage1.png'); 
@@ -269,12 +269,40 @@ select {
 
 .calc-link {
   font-weight: 700;
-  font-size: x-large;
+  font-size: large;
+  /* background-color: whitesmoke; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calc-link a {
+  color: red;
 }
 
 .supplies-link {
   font-weight: 700;
-  font-size: x-large;
+  font-size: large;
+     
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.supplies-link a {
+  color:red;
+  text-decoration: skyblue;
+}
+/* 
+.sales {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 25%;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    width: 75%;
+    text-align: center;
+    z-index: 1000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } */
 }
