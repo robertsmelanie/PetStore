@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Populate birth year dropdown
     const birthYearSelect = document.getElementById("birthYear");
     const currentYear = new Date().getFullYear();
-    const startYear = 1900; // Adjust as needed
+    const startYear = 1995; // Adjust as needed
 
     for (let year = currentYear; year >= startYear; year--) {
         let option = document.createElement("option");

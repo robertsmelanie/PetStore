@@ -36,9 +36,10 @@
     background-color: burlywood;
     padding: 20px;
     border-radius: 8px;
-    width: 50%;
+    width: 75%;
     text-align: center;
     z-index: 1000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .nav-link {
     color: white;
@@ -46,6 +47,7 @@
     margin: 0;
     /* margin: 0 15px; */
     font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .nav-link:hover {
     text-decoration: underline;
@@ -264,3 +266,15 @@ select {
   flex-direction: column;
   justify-content: center;
 } */
+
+.calc-link {
+  font-weight: 700;
+  font-size: x-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.supplies-link {
+  font-weight: 700;
+  font-size: x-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
