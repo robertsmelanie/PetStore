@@ -34,7 +34,7 @@
     width: 25%;
     align-items: flex-start;
     background-color: burlywood;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     width: 75%;
     text-align: center;
@@ -155,7 +155,7 @@ button {
     margin: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    /* width: 100%; */
+    width: 100%;
     text-align: center;
     flex-grow: 1;
     flex-shrink: 1;
@@ -254,7 +254,7 @@ button {
     
 }
 .age {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 select {
@@ -295,7 +295,7 @@ select {
     gap: 20px;
     display: flex;
     /* flex-direction: column; */
-    width: 25%;
+    /* width: 25%;
     align-items: flex-start;
     background-color: whitesmoke;
     padding: 20px;
@@ -304,5 +304,10 @@ select {
     text-align: center;
     z-index: 1000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  } */
-}
+  } */ 
+
+
+  .btn-primary{
+    background-color: #0074E4 !important;
+    outline-color: #A51212;
+  }
