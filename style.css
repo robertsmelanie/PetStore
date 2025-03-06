@@ -10,12 +10,16 @@
     width: 70%;
     text-align: center;
     
+    justify-content: center;
+
+    
 }
 .cats9{
     display: flex;
     /* flex-direction: column; */
     width: 40%;
     align-items: flex-end;
+    justify-content: right;
 }
 
 .nav-bar {
@@ -104,6 +108,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
     
 }
 
@@ -241,7 +246,7 @@ button {
     color: #0055aa; /* Darker blue on hover */
 }
 
-@media (min-width: 801px) {
+@media (min-width: 901px) {
   .dropdown {
     display: none !important;
   }
@@ -250,7 +255,7 @@ button {
   
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .containertext {
         flex-direction: column;
         align-items: center;
@@ -383,3 +388,4 @@ select {
 .dropdown:hover .dropbtn {
   background-color: #A51212;
 }
+
