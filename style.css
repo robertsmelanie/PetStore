@@ -404,3 +404,12 @@ select {
   /* Optional: Adds a slight white background to improve readability */
   border-radius: 10px; /* Optional: Adds rounded edges */
 }
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+li {
+  text-align: left;
+}
