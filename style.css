@@ -467,3 +467,70 @@ li {
   width: 100%; /* Stretches full width if links wrap */
 }
 
+.containertext {
+  background-color: maroon;
+}
+/* Offer Section - Black Text with Blue Links */
+.offer-section {
+  color: black !important; /* Ensures text is black */
+  background-color: white; /* Optional: Makes sure it contrasts well */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Ensures all links inside offer-section are blue */
+.offer-section a {
+  color: blue !important; /* Forces links to be blue */
+  text-decoration: underline; /* Ensures they are clearly visible */
+}
+
+/* Optional: Change link color when hovered */
+.offer-section a:hover {
+  color: darkblue; /* Darkens when hovered */
+}
+
+/* Maroon Background Section */
+.containertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: maroon;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%; /* Set one width instead of repeating */
+  max-width: 900px; /* Prevents it from being too wide */
+  justify-content: center;
+  overflow: hidden; /* Prevents overflow outside the maroon box */
+}
+
+/* Scrollable Box */
+.supply-container {
+  max-height: 400px; /* Adjust height so it stays within the maroon box */
+  width: 100%;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensures images inside supply-container scale properly */
+.supply-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* For Mobile Adjustments */
+@media screen and (max-width: 900px) {
+  .containertext {
+      width: 90%; /* Expands width for smaller screens */
+      padding: 15px;
+  }
+
+  .supply-container {
+      max-height: 300px; /* Smaller scroll area on mobile */
+      padding: 15px;
+  }
+}
