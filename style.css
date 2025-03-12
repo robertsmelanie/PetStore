@@ -197,7 +197,7 @@ button {
     border: 8px;
     width: 50%;
     text-align: center;
-    margin: 80px;
+    margin-top: 80px;
     z-index: 1;
     position: relative;
     position: relative;
@@ -498,7 +498,7 @@ li {
   background-color: maroon;
   padding: 20px;
   border-radius: 8px;
-  width: 70%; /* Set one width instead of repeating */
+  width: 95%; /* Set one width instead of repeating */
   max-width: 900px; /* Prevents it from being too wide */
   justify-content: center;
   overflow: hidden; /* Prevents overflow outside the maroon box */
