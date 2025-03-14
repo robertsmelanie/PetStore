@@ -237,37 +237,23 @@ button {
   .dropdown {
     display: none !important;
   }
+  
 }
 
 @media screen and (max-width: 900px){
-  /* .container1 {
-    width: 100%;
+ 
   }
-  .containertext {
-      flex-direction: column;
-      align-items: center;
-      overflow-y: auto;
-      max-height: 800px;
-      padding: 20px;
-      background: whitesmoke;
-      width: 90%;
-      padding: 20px;
-      border-radius: 10px;  
-
-     
-  }*/
+  .dropdown {
+    display: block;
+  }
 
    .nav-bar {
       width: 100%;
   } 
 
-  .dropdown {
-    display: block;
-  }
+  
 
-   .menu-links {
-    display: none;
-  } 
+ 
   
 }
 
@@ -278,10 +264,10 @@ button {
     justify-content: center;
 }
 
-.nav-links {
+ .nav-links {
     width: 100%;  /* Make sure the nav section stretches full width */
     justify-content: center;  /*Center links on small screens */
-} 
+}  
 } 
 
 .age {
@@ -493,13 +479,12 @@ li {
   padding: 10px;
   border: 1px solid #ccc;
 }
-/* Ensure the thank-you message is hidden initially */
-.thank-you-message {
-  display: none;
-}
 
-/* Footer styling */
-.footer-custom {
-  background-color: #f8f9fa;
-  color: #6c757d;
-}
+@media (min-width 870px) {
+  .nav-links {
+    display: none;
+  }
+}  
+/* .nav-link {
+  color: maroon !important;
+} */
