@@ -493,3 +493,13 @@ li {
   padding: 10px;
   border: 1px solid #ccc;
 }
+/* Ensure the thank-you message is hidden initially */
+.thank-you-message {
+  display: none;
+}
+
+/* Footer styling */
+.footer-custom {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
