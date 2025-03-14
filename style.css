@@ -255,7 +255,7 @@ button {
 
  
   
-}
+
 
 /* Ensure the background extends when links wrap */
 @media (max-width: 980px) {  /* Adjust this value as needed */
@@ -480,11 +480,11 @@ li {
   border: 1px solid #ccc;
 }
 
-@media (min-width 870px) {
+ @media (min-width: 990px) {
   .nav-links {
     display: none;
   }
-}  
+}   
 /* .nav-link {
   color: maroon !important;
 } */
