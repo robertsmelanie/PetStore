@@ -391,7 +391,7 @@ li {
 
 /* Style individual links */
 .nav-links a {
-  color: white;
+  color: maroon;
   text-decoration: none;
   font-size: 18px;
   padding: 8px 12px;
@@ -485,6 +485,9 @@ li {
     display: none;
   }
 }   
-/* .nav-link {
+a .nav-link  {
   color: maroon !important;
-} */
+}
+.link-maroon .nav-link {
+  color: maroon !important;
+}
